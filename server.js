@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/about', function(req, res) {
-    res.send('About us');
+    res.send('About us!');
 });
 app.use(express.static(__dirname + '/public'));
 app.listen(process.env.PORT || PORT, function() {
